@@ -1,0 +1,75 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$XaPzJ9WPCj3mH2yadk2Bc8$KmdjwR5XRU3Lzo9uR2qSMvAYwr57bdGFV8ps6l1lz4g=",
+      "last_login": "2024-11-11 16:41:40.593979+03",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "date_joined": "2024-11-09 14:33:03.231577+03",
+      "email": "user1@example.com",
+      "phone": "+7 (999) 111-22-33",
+      "first_name": "Алексей",
+      "last_name": "Иванов",
+      "date_of_birth": "1990-05-15",
+      "role": "patient"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$A7Vp3Yrxs5Wod1HZk0x0DQ$7fYf2bqWVxj1s49TLFfL9wH7fGpXq7RxEqZGHOcHqlo=",
+      "last_login": "2024-11-11 16:42:40.593979+03",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "date_joined": "2024-11-10 10:10:03.231577+03",
+      "email": "patient2@example.com",
+      "phone": "+7 (999) 444-55-66",
+      "first_name": "Мария",
+      "last_name": "Петрова",
+      "date_of_birth": "1985-07-22",
+      "role": "patient"
+    }
+  },
+
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Am0r7Qfx5OW8bvnIO1ax4g$2zMOUc5Z+H5HJ9bwOSGpKhpmHa3mr/RB9IjRpVh2H6I=",
+      "last_login": "2024-11-11 16:44:50.593979+03",
+      "is_active": false,
+      "is_staff": false,
+      "is_superuser": false,
+      "date_joined": "2024-11-07 12:00:03.231577+03",
+      "email": "inactiveuser@example.com",
+      "phone": "+7 (999) 888-99-00",
+      "first_name": "Андрей",
+      "last_name": "Дмитриев",
+      "date_of_birth": "1992-11-20",
+      "role": "patient"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$TkAz7wq8X1gMwW+7fqTGEQ$0yRrn3ZnRO51t+2pnLSB/7yw0qdYZzCNbIgOHL7FAZk=",
+      "last_login": "2024-11-11 16:45:53.593979+03",
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": false,
+      "date_joined": "2024-11-06 14:22:03.231577+03",
+      "email": "user5@example.com",
+      "phone": "+7 (999) 555-44-33",
+      "first_name": "Наталья",
+      "last_name": "Волкова",
+      "date_of_birth": "1995-02-13",
+      "role": "doctor"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "model": "services.service",
+    "pk": 1,
+    "fields": {
+      "title": "УЗИ органов брюшной полости",
+      "image": "image_service/ultrazvuk_brjushnoj_polosti.jpg",
+      "price": 3500,
+      "description": "Проведение ультразвукового исследования внутренних органов брюшной полости."
+
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 2,
+    "fields": {
+      "title": "ЭКГ сердца",
+      "image": "image_service/ekg_serdca.jpg",
+      "price": 1500,
+      "description": "Электрокардиография для диагностики сердечных заболеваний."
+
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 3,
+    "fields": {
+      "title": "Консультация невролога",
+      "image": "image_service/nevrolog.jpg",
+      "price": 2000,
+      "description": "Консультация врача-невролога по вопросам нервной системы."
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 4,
+    "fields": {
+      "title": "Массаж спины и шеи",
+      "image": "image_service/massazh_spiny.jpg",
+      "price": 1000,
+      "description": "Терапевтический массаж для снятия напряжения и болей в спине и шее."
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 5,
+    "fields": {
+      "title": "Лабораторные исследования (анализ крови)",
+      "image": "image_service/laboratornye_issledovaniya.jpg",
+      "price": 800,
+      "description": "Общий анализ крови для диагностики различных заболеваний."
+    }
+  }
+]

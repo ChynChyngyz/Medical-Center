@@ -1,0 +1,29 @@
+[
+  {
+    "model": "speciality.speciality",
+    "pk": 1,
+    "fields": {
+      "speciality_name": "Кардиология",
+      "description": "Диагностика и лечение заболеваний сердца и сосудов.",
+      "image": "image_speciality/kardiologiya.jpg"
+    }
+  },
+  {
+    "model": "speciality.speciality",
+    "pk": 2,
+    "fields": {
+      "speciality_name": "Неврология",
+      "description": "Обследование и лечение заболеваний нервной системы.",
+      "image": "image_speciality/nevrologiya.jpg"
+    }
+  },
+  {
+    "model": "speciality.speciality",
+    "pk": 3,
+    "fields": {
+      "speciality_name": "Эндокринология",
+      "description": "Диагностика и лечение заболеваний эндокринной системы.",
+      "image": "image_speciality/endokrinologiya.jpg"
+    }
+  }
+]
